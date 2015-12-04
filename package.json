@@ -1,5 +1,5 @@
 {
-  "name": "lightspeed",
+  "name": "light-speed",
   "version": "1.0.0",
   "description": "Speed of Light in Meters per Second",
   "main": "./lib/index.js",
