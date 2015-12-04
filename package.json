@@ -22,5 +22,17 @@
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
     "standard": "^5.4.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggi/light-speed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reggi/light-speed/issues"
+  },
+  "homepage": "https://github.com/reggi/light-speed#readme"
 }
