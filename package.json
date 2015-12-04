@@ -1,0 +1,26 @@
+{
+  "name": "lightspeed",
+  "version": "1.0.0",
+  "description": "Speed of Light in Meters per Second",
+  "main": "./lib/index.js",
+  "jsnext": "./src/index.js",
+  "scripts": {
+    "test": "standard && mocha --compilers js:babel-core/register --recursive",
+    "build": "babel ./src --out-dir ./lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "author": "Thomas reggi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.3.2",
+    "babel-preset-es2015": "^6.1.18",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "standard": "^5.4.1"
+  }
+}
